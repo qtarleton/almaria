@@ -36,7 +36,7 @@
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start ml-3">
           <a class="navbar-item" href="#work"> Our Work </a>
-          <a class="navbar-item" href="#about"> About Us </a>
+          <a class="navbar-item" href="#about"> Our Story </a>
 
           <a class="navbar-item" href="#contact"> Contact </a>
         </div>
@@ -53,36 +53,40 @@
     <!--end nav-->
 
     <!--start hero-->
-    <section class="section hero-purple">
+    <section class="section" id="hero-image">
       <div class="container mt-5 mb-4">
+        <div class="container hero-container p6">
+          <p class="title playfair-title-cream is-size-2 is-size-3-mobile">
+            Made by Hand. <br />Crafted with Love.
+          </p>
+          <p class="albert-subtitle-cream">
+            Alma Ria Designs specialises in custom, handcrafted,<br />
+            fabric kitchen and home wares.
+          </p>
+          <a class="button mt-4" id="button-dark" href="#work">Learn More</a>
+        </div>
+        <!-- 
         <div class="columns">
           <div class="column is-half mt-5">
-            <div class="container p6">
-              <p class="title playfair-title-cream is-size-2 is-size-3-mobile">
-                Made by Hand. <br />Crafted with Love.
-              </p>
-              <p class="albert-subtitle-cream">
-                Alma Ria Designs specialises in custom, handcrafted, fabric
-                kitchen and home wares.
-              </p>
-              <a class="button mt-4" id="button-dark" href="#work"
-                >Learn More</a
-              >
-            </div>
+            
           </div>
           <div class="column is-half ml-3">
             <figure class="image image-right">
               <img src="images/Day of Dead Full Back Detail.png" alt="" />
             </figure>
+
           </div>
         </div>
+-->
       </div>
     </section>
     <!--end hero-->
 
+    <!--start work-->
     <section class="section hero-blue" id="work">
       <div class="container">
-        <p class="title playfair-title-cream is-size-2 is-size-3-mobile">
+        <p
+          class="title playfair-title-cream is-size-2 is-size-3-mobile has-text-centered pb-4">
           Our Work
         </p>
         <div class="columns is-gapless mb-4">
@@ -289,42 +293,14 @@
           <hr />
         </div>
 
-        <p class="title playfair-title-cream is-size-3 mt-5">
+        <!--insta-->
+        <p class="title playfair-title-cream is-size-3 mt-5 has-text-centered">
           To see more of our work check out our Instagram page!
         </p>
         <div class="insta">
           <div id="ft-insta-app"></div>
-          <script type="module">
-            import App from 'https://cdn.fouita.com/public/instagram-feed.js?11';
-            new App({
-              target: document.getElementById('ft-insta-app'),
-              props: {
-                settings: {
-                  layout: 'grid',
-                  source: 'insta',
-                  selected: 'uname',
-                  header: true,
-                  autoplay: false,
-                  zigzag: false,
-                  cols: 3,
-                  cardHeight: 300,
-                  gap: 1,
-                  direction: 'down',
-                  height: 700,
-                  bgColor: 'rgb(4 111 183)',
-                  txtColor: 'rgb(255 255 255)',
-                  ukey: 'a251091e-4bcc-40f6-a431-b2ceaa1c3322',
-                },
-              },
-            });
-          </script>
-          <div id="ft-insta-brd">
-            <a
-              href="https://fouita.com/website-widgets/instagram-feed"
-              target="_blank"
-              >Embed Instagram Feed</a
-            ><a href="https://fouita.com" target="_blank">with Fouita</a>
-          </div>
+          <div data-key="Instagram Feed  " class="ft" id="ftk3bqup6"></div>
+          <script src="https://wdg.fouita.com/widgets/0x30b7bd.js"></script>
           <!-- LightWidget WIDGET 
 
           <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
@@ -337,11 +313,14 @@
         </div>
       </div>
     </section>
+    <!--end insta-->
+    <!--end work-->
 
     <!--about section-->
     <section class="section" id="about">
       <div class="container">
-        <p class="title playfair-title-cream is-size-2 is-size-3-mobile">
+        <p
+          class="title playfair-title-cream is-size-2 is-size-3-mobile has-text-centered pb-4">
           Our Story
         </p>
         <div class="columns">
@@ -474,11 +453,8 @@
         </div>
       </div>
     </section>
-    <!--about section-->
+    <!--end about section-->
 
-    <!--start columns-->
-
-    <!--end columns-->
     <!--start contact section-->
     <section class="section" id="contact">
       <div class="container">
@@ -594,13 +570,13 @@
     <section class="section hero-purple" id="reviews">
       <div class="container">
         <div class="level">
-          <div class="card card-stroke">
+          <div class="card card-stroke mb-3">
             <div class="card-content">
               <p class="title">“Loving my new oven mitts!”</p>
               <p class="subtitle has-text-right">- Nilsa</p>
             </div>
           </div>
-          <div class="card card-stroke">
+          <div class="card card-stroke mb-3">
             <div class="card-content">
               <p class="title">“Your items are super cute!”</p>
               <p class="subtitle has-text-right">- Michelle</p>

@@ -139,6 +139,25 @@ a.navbar-item:hover {
   max-height: 50px;
 }
 
+#hero-image {
+  background: linear-gradient(
+      0.25turn,
+      #9d6acc58,
+      #9d6accd4,
+      #9c6acc,
+      #9d6accd4,
+      #9d6acc58
+    ),
+    url(images/Day\ of\ Dead\ Full.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.hero-gradient {
+  margin: 0;
+  padding: 0;
+}
+
 .hero-purple {
   background-color: var(--purple);
   margin-top: 24px;
@@ -147,6 +166,10 @@ a.navbar-item:hover {
 .hero-blue {
   background-color: var(--blue);
   padding-top: 24px;
+}
+
+.hero-container {
+  text-align: center;
 }
 
 .card {
