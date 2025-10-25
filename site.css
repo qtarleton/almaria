@@ -60,6 +60,18 @@ a.navbar-item:hover {
   min-width: 10rem;
 }
 
+@font-face {
+  font-family: Emelynd;
+  src: url('Font/Emelynd/emelynd.bold.otf') format('opentype');
+}
+
+.hero-font {
+  font-family: 'Emelynd';
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--cream);
+}
+
 .playfair-title {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
@@ -87,6 +99,13 @@ a.navbar-item:hover {
   font-weight: 700;
   font-style: italic;
   color: var(--purple);
+}
+
+.playfair-italic-cream {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--cream);
 }
 
 .albert-subtitle-cream {
@@ -140,22 +159,10 @@ a.navbar-item:hover {
 }
 
 #hero-image {
-  background: linear-gradient(
-      0.25turn,
-      #9d6acc58,
-      #9d6accd4,
-      #9c6acc,
-      #9d6accd4,
-      #9d6acc58
-    ),
-    url(images/Day\ of\ Dead\ Full.jpg) no-repeat;
+  background: url(images/sewing\ hero-01.png) no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
-}
-
-.hero-gradient {
-  margin: 0;
-  padding: 0;
 }
 
 .hero-purple {
