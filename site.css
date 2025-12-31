@@ -215,6 +215,10 @@ a.navbar-item:hover {
   color: var(--dk-purple);
 }
 
+#contact {
+  background-color: var(--cream);
+}
+
 .input,
 .textarea {
   background-color: var(--cream);
